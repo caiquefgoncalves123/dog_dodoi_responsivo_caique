@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+.header {
+  background-color: #e7f6fd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  height: 35px;
+}
+
+.logo span {
+  font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+}
+
+.nav-container {
+  display: flex;
+  align-items: end;
+  gap: 2rem;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: #e5006e;
+}
+
+.botao-header {
+  background-color: #e5006e;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.botao-header:hover {
+  background-color: #c2005d;
+}
+
+.hero {
+  background-color: #e7ebfb;
+  text-align: center;
+  padding: 4rem 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.content h2 {
+  color: #e5006e;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.content p {
+  color: #5e6470;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.botao {
+  background-color: #e5006e;
+  color: white;
+  padding: 0.8rem 1.8rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #c2005d;
+}
+
+.dog-image {
+  max-width: 400px;
+  width: 90%;
+  margin-top: 2rem;
+}
+
+/* Elementos decorativos (patas) podem ser adicionados assim: */
+.hero::before,
+.hero::after {
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+.hero::before {
+  background-image: url('pata-esquerda.png'); /* exemplo */
+  width: 50px;
+  height: 50px;
+  bottom: 30px;
+  left: 30px;
+}
+
+.hero::after {
+  background-image: url('pata-direita.png'); /* exemplo */
+  width: 50px;
+  height: 50px;
+  top: 30px;
+  right: 30px;
+}
+
+#beneficios {
+  background-color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+ 
+.titulo-beneficios {
+  color: #f91b7c;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+ 
+.descricao-beneficios {
+  color: #434850;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+ 
+.container-beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+ 
+.item-beneficio {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+ 
+.icone-beneficio {
+  background-color: #eaf7fd;
+  border-radius: 50%;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+ 
+.icone-beneficio img {
+  width: 50px;
+  height: 50px;
+}
+ 
+.titulo-item {
+  color: #f91b7c;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+ 
+.texto-item {
+  font-size: 14px;
+  color: #484e57;
+}
+ 
+ 
+.titulo-beneficios {
+  color: #f91b7c;
+  font-size: 30px;
+  font-weight: 700;
+ 
+}
+ 
+.descricao-beneficios {
+  color: #555e6c;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+ 
+.container-beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+ 
+.item-beneficio {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+ 
+.icone-beneficio {
+  background-color: #eaf7fd;
+  border-radius: 50%;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+ 
+.icone-beneficio img {
+  width: 50px;
+  height: 50px;
+}
+ 
+.titulo-item {
+  color: #f91b7c;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+ 
+.texto-item {
+  font-size: 15px;
+  color: #555e6c;
+  text-align: center;
+}
+ 
+#servicos {
+  background-color: #eaf7fd;
+  text-align: center;
+  padding: 60px 20px;
+}
+ 
+.titulo-servicos {
+  color: #f91b7c;
+  font-size: 31px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+ 
+.descricao-servicos {
+  color: #556;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+ 
+.container-servicos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+ 
+.card-servico {
+  position: relative;
+  width: 180px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+ 
+.card-servico img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+ 
+}
+ 
+.card-servico .legenda {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+ 
+#avaliacao {
+  background-color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+ 
+#avaliacao h2 {
+  font-size: 40px;
+  color: #2d3e50;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+ 
+#avaliacao p {
+  font-size: 16px;
+  color: #667;
+  margin-bottom: 30px;
+}
+ 
+.formulario-avaliacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+ 
+.grupo-campos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+ 
+.campo-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+ 
+.campo-formulario label {
+  font-size: 25px;
+  color: #444;
+  margin-bottom: 2px;
+}
+ 
+.input-nome,
+.input-email {
+  width: 250px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
+ 
+}
+ 
+.botao-avaliacao {
+  background-color: #f91b7c;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+ 
+.botao-avaliacao:hover {
+  background-color: #d4166b;
+}
+ 
+footer {
+  background-color: #eaf7fd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  font-size: 14px;
+  color: #333;
+  flex-wrap: wrap;
+}
+ 
+footer img {
+  height: 50px;
+}
+ 
+footer p {
+  margin: 5px 0;
+  text-align: right;
+  font-size: 25px;
+}
+
+
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+  gap: 40px;
+}
+
+.texto-esquerda,
+.texto-direita {
+  width: 50%;
+}
+
+.bem-vindo {
+  color: #d6006d;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.destaque {
+  color: #d6006d;
+}
