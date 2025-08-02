@@ -10,10 +10,11 @@
 
 .header {
   background-color: #e7f6fd;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: space-between;
   padding: 0.8rem 2rem;
+  gap: 2rem;
 }
 
 .logo {
@@ -32,15 +33,10 @@
   font-size: 1rem;
 }
 
-.nav-container {
-  display: flex;
-  align-items: end;
-  gap: 2rem;
-}
-
 .menu ul {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 2rem;
   margin: 0;
   padding: 0;
@@ -51,6 +47,7 @@
   color: #333;
   font-weight: 500;
   transition: color 0.3s ease;
+  align-items: end;
 }
 
 .menu ul li a:hover {
@@ -113,30 +110,6 @@
   margin-top: 2rem;
 }
 
-/* Elementos decorativos (patas) podem ser adicionados assim: */
-.hero::before,
-.hero::after {
-  content: '';
-  position: absolute;
-  background-repeat: no-repeat;
-  opacity: 0.2;
-}
-
-.hero::before {
-  background-image: url('pata-esquerda.png'); /* exemplo */
-  width: 50px;
-  height: 50px;
-  bottom: 30px;
-  left: 30px;
-}
-
-.hero::after {
-  background-image: url('pata-direita.png'); /* exemplo */
-  width: 50px;
-  height: 50px;
-  top: 30px;
-  right: 30px;
-}
 
 #beneficios {
   background-color: #fff;
@@ -405,6 +378,8 @@ footer p {
   max-width: 900px;
   margin: auto;
   gap: 40px;
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 .texto-esquerda,
@@ -418,6 +393,7 @@ footer p {
   font-weight: bold;
   display: block;
   margin-bottom: 0.5rem;
+  font-size: 30px;
 }
 
 .destaque {
