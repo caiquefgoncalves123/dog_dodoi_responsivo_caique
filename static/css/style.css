@@ -48,6 +48,7 @@
   font-weight: 500;
   transition: color 0.3s ease;
   align-items: end;
+  font-size: 25px;
 }
 
 .menu ul li a:hover {
@@ -61,7 +62,7 @@
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 20px;
   transition: background 0.3s ease;
 }
 
@@ -79,13 +80,13 @@
 
 .content h2 {
   color: #e5006e;
-  font-size: 1.8rem;
+  font-size: 80px;
   margin-bottom: 0.5rem;
 }
 
 .content p {
   color: #5e6470;
-  font-size: 1rem;
+  font-size: 40px;
   margin-bottom: 1.5rem;
 }
 
@@ -96,8 +97,9 @@
   border-radius: 25px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 25px;
   transition: background 0.3s ease;
+  margin-top: 20px;
 }
 
 .botao:hover {
@@ -189,6 +191,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 10px;
 }
  
 .item-beneficio {
@@ -229,6 +232,7 @@
   background-color: #eaf7fd;
   text-align: center;
   padding: 60px 20px;
+  
 }
  
 .titulo-servicos {
@@ -236,6 +240,7 @@
   font-size: 31px;
   font-weight: 700;
   margin-bottom: 10px;
+  font-size: 40px;
 }
  
 .descricao-servicos {
@@ -379,7 +384,7 @@ footer p {
   margin: auto;
   gap: 40px;
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .texto-esquerda,
@@ -393,7 +398,7 @@ footer p {
   font-weight: bold;
   display: block;
   margin-bottom: 0.5rem;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .destaque {
@@ -407,14 +412,14 @@ footer p {
   background-color: #e7ebfb;
   padding: 4rem;
   gap: 4rem;
-  height: 70vh; /* Ocupa a altura inteira da tela */
+  height: 70vh; 
   box-sizing: border-box;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
 .imagem img {
-  width: 400px; /* aumentada */
+  width: 400px; 
   height: auto;
   border-radius: 12px;
   object-fit: cover;
@@ -426,13 +431,13 @@ footer p {
 
 .texto h3 {
   color: #e5006e;
-  font-size: 1.6rem; 
+  font-size: 40px; 
   margin-bottom: 1rem;
 }
 
 .texto p {
   color: #333;
-  font-size: 1.1rem; 
+  font-size: 20px; 
   line-height: 1.7;
 }
 
@@ -451,6 +456,7 @@ footer p {
     text-align: center;
     gap: 1rem;
     padding: 1rem;
+    width: 440px;
   }
 
   .logo {
@@ -470,7 +476,10 @@ footer p {
 
   .hero {
     padding: 3rem 1rem;
+    width: 440px;
   }
+  
+
 
   .hero img {
     width: 100%;
@@ -478,11 +487,11 @@ footer p {
   }
 
   .content h2 {
-    font-size: 1.4rem;
+    font-size: 35px;
   }
 
   .content p {
-    font-size: 0.95rem;
+    font-size: 15px;
   }
 
   .formulario-avaliacao {
@@ -500,6 +509,7 @@ footer p {
     gap: 1rem;
     text-align: center;
     padding: 2rem;
+    width: 405px;
   }
 
   footer p {
@@ -521,6 +531,7 @@ footer p {
     padding: 2rem 1rem;
     height: auto;
     gap: 2rem;
+    width: 475px;
   }
 
   .imagem {
@@ -540,6 +551,26 @@ footer p {
   .texto p {
     font-size: 1rem;
     line-height: 1.6;
+  }
+
+  .botao{
+    font-size: 15px;
+  }
+
+  .dog-image{
+    display: none;
+  }
+
+  .menu ul li a{
+    font-size: 20px;
+  }
+
+  #servicos{
+    width: 426px;
+  }
+
+  .container-beneficios {
+    width: 440px;
   }
 
 }
