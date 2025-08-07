@@ -449,6 +449,130 @@ footer p {
   color: transparent;
 }
 
+@media (min-width: 2559px){
+  .menu ul li a{
+    font-size: 35px;
+  }
+
+  .botao-header{
+    font-size: 35px;
+  }
+
+  .logo img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .content h2{
+    font-size: 100px;
+  }
+
+  .content p {
+    font-size: 50px;
+  }
+
+  .botao {
+    font-size: 40px;
+  }
+
+  .bem-vindo{
+    font-size: 90px;
+  }
+
+  .texto h3{
+    font-size: 80px;
+    max-width: none;
+    
+  }
+
+  .texto p {
+    font-size: 50px;
+    
+  }
+
+  .imagem img {
+    width: 850px;
+    
+}
+
+.titulo-item{
+  font-size: 50px;
+  gap: 20px;
+}
+
+.icone-beneficio img{
+  width: 150px;
+  height: 150px;
+}
+
+.texto-item{
+  font-size: 40px;
+}
+
+.titulo-servicos{
+  font-size: 100px;
+}
+
+.descricao-servicos{
+  font-size: 50px;
+  
+}
+
+.card-servico img {
+  width: 100%;
+  height: 100%;
+}
+
+#avaliacao h2{
+  font-size: 100px;
+}
+
+#avaliacao p{
+  font-size: 50px;
+}
+
+.campo-formulario label{
+  font-size: 55px;
+}
+
+.campo-formulario input{
+  width: 500px;
+  height: 100px;
+}
+
+.botao-avaliacao{
+  font-size: 50px;
+  margin-top: 25px;
+}
+
+footer p{
+  font-size: 30px;
+}
+
+footer img{
+  width: 100px;
+  height: 100px;
+}
+
+.intro{ 
+  
+  font-size: 50px;
+}
+}
+
+@media (max-width: 1441px){
+
+}
+@media (max-width: 769px) {
+  .imagem img{
+    display: none;
+  }
+
+footer p{
+  font-size: 15px;
+}
+
+}
 
 @media (max-width: 426px) {
   .header {
@@ -456,7 +580,7 @@ footer p {
     text-align: center;
     gap: 1rem;
     padding: 1rem;
-    width: 440px;
+    
   }
 
   .logo {
@@ -476,7 +600,7 @@ footer p {
 
   .hero {
     padding: 3rem 1rem;
-    width: 440px;
+    
   }
   
 
@@ -496,7 +620,7 @@ footer p {
 
   .formulario-avaliacao {
     width: 100%;
-    padding: 0 1rem;
+    
   }
 
   .input-nome,
@@ -509,7 +633,7 @@ footer p {
     gap: 1rem;
     text-align: center;
     padding: 2rem;
-    width: 405px;
+    
   }
 
   footer p {
@@ -519,7 +643,7 @@ footer p {
   .intro {
     flex-direction: column;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 25px;
   }
 
   .texto-esquerda,
@@ -531,7 +655,7 @@ footer p {
     padding: 2rem 1rem;
     height: auto;
     gap: 2rem;
-    width: 475px;
+   
   }
 
   .imagem {
@@ -540,16 +664,15 @@ footer p {
 
   .texto {
     text-align: center;
-    width: 100%;
-    max-width: 100%;
+ 
   }
 
   .texto h3 {
-    font-size: 1.4rem;
+    font-size: 35px;
   }
 
   .texto p {
-    font-size: 1rem;
+    font-size: 20px;
     line-height: 1.6;
   }
 
@@ -566,13 +689,78 @@ footer p {
   }
 
   #servicos{
-    width: 426px;
+    
   }
 
   .container-beneficios {
-    width: 440px;
+   
   }
 
+}
+
+@media(max-width: 376px) {
+
+  .formulario-avaliacao {
+    
+  }
+
+  #avaliacao h2 {
+    text-align: center;
+
+}
+ 
+#avaliacao p {
+  font-size: 20px;
+  color: #667;
+  margin-bottom: 30px;
+}
+
+.intro {
+  font-size: 20px;
+}
+
+.cuidados h3{
+  font-size: 30px;
+}
+
+.cuidados p {
+  font-size: 20px;
+}
+
+.content h2{
+  font-size: 35px;
+}
+
+.content p {
+  font-size: 20px;
+}
+}
+
+@media(max-width: 321px) {
+
+  .intro{
+    font-size: 20px;
+  }
+
+  .cuidados h3{
+    font-size: 35px;
+  }
+
+  .texto p {
+    font-size: 25px;
+  }
+
+  .botao {
+    font-size: 10px;
+  }
+
+  .texto p{
+    font-size: 20px;
+  }
+
+  .botao-avaliacao {
+    font-size: 15px;
+  }
 }
 
   
