@@ -1,3 +1,4 @@
-O site Dog Dodói agora suporta para mobile de 425x554
+O site Dog Dodói agora suporta para todos os dispositivos
+
 
 Grupo: Caique, Gustavo P, Paulo e Alicia
