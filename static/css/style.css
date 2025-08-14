@@ -107,9 +107,11 @@
 }
 
 .dog-image {
-  max-width: 400px;
-  width: 90%;
-  margin-top: 2rem;
+  width: 550px;
+  height: 550px;
+  width:100%;
+  
+  opacity: 0.3;
 }
 
 
@@ -533,6 +535,8 @@ footer p {
   gap: 250px;
   margin-bottom: 30px;
 }
+
+
 
 .card-servico img {
   width: 100%;
